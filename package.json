@@ -1,0 +1,26 @@
+{
+  "name": "@pavus/ic-management-canister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "refresh": "node refresh.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krpeacock/ic-management-canister.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krpeacock/ic-management-canister/issues"
+  },
+  "homepage": "https://github.com/krpeacock/ic-management-canister#readme",
+  "devDependencies": {
+    "zx": "^7.1.1"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
