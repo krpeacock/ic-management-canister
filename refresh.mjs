@@ -10,7 +10,7 @@ fs.writeFileSync(path.resolve("tmp.did"), await candid);
 
 const motoko = await $`didc bind tmp.did -t mo`;
 
-fs.writeFileSync(path.resolve("src", "Types.mo"), motoko.toString());
+fs.writeFileSync(path.resolve("src", "lib.mo"), motoko.toString());
 
 await $`rm tmp.did`;
 
