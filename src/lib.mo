@@ -101,6 +101,7 @@ module {
       } -> async ();
     provisional_create_canister_with_cycles : shared {
         settings : ?canister_settings;
+        specified_id : ?canister_id;
         amount : ?Nat;
       } -> async { canister_id : canister_id };
     provisional_top_up_canister : shared {
