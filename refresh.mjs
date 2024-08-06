@@ -1,8 +1,9 @@
 import fs from "fs";
 import path from "path";
+import { $ } from "zx";
 const candid = (
   await fetch(
-    "https://raw.githubusercontent.com/dfinity/interface-spec/master/spec/ic.did"
+    "https://raw.githubusercontent.com/dfinity/interface-spec/master/spec/_attachments/ic.did"
   )
 ).text();
 

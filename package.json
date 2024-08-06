@@ -1,7 +1,7 @@
 {
   "name": "@pavus/ic-management-canister",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "interface for the management canister",
   "main": "index.js",
   "scripts": {
     "refresh": "node refresh.mjs"
