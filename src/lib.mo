@@ -86,6 +86,16 @@ module {
   public type canister_status_result = {
     status : { #stopped; #stopping; #running };
     memory_size : Nat;
+    memory_metrics : {
+      wasm_memory_size : Nat;
+      stable_memory_size : Nat;
+      global_memory_size : Nat;
+      wasm_binary_size : Nat;
+      custom_sections_size : Nat;
+      canister_history_size : Nat;
+      wasm_chunk_store_size : Nat;
+      snapshots_size : Nat;
+    };
     cycles : Nat;
     settings : definite_canister_settings;
     query_stats : {
